@@ -43,7 +43,7 @@ export default function Home() {
 
         <h2>2. Aria Hidden</h2>
 
-        <p>Aria Hidden is used to hide content from assistive technologies in order to improve the experience. Also, tabIndex can be set to prevent focus on interactive elements. However, if it is used to hide essential content, people using those technologies won't be able to access them - for instance, promotions and coupons.</p>
+        <p>Aria Hidden is used to hide content from assistive technologies in order to improve the experience. Also, tabIndex can be set to prevent focus on interactive elements. However, if it is used to hide essential content, people using those technologies will not be able to access them - for instance, promotions and coupons.</p>
         
         <div className="banner" aria-hidden>
           <p>Promotion: click button below for discount</p>
